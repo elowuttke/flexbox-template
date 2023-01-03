@@ -21,26 +21,21 @@ header{
 main{
     background-color: antiquewhite;
     display: flex;
-    flex-grow: 1;
+    flex-wrap: wrap;
 }
 
-section{
-    display: flex;
-    flex-direction: row;
+.card{
+    text-align: center;
+    border: 1px solid burlywood;
+    height: auto;
+    width: 162px;
+    background-color: white;
+    margin: 8px;
 }
 
-.border{
-    border: 1px solid black;
-}
-
-aside{
-    display: flex;
-    flex-grow: 1;
-}
-
-article{
-    display: flex;
-    flex-grow: 8;
+.imgDoCard{
+    width: 160px;
+    height: 160px;
 }
 
 footer{
